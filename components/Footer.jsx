@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Logo from '../assets/Logo.png';
 
 
-export default (Footer) => {
+const Footer = (Footer) => {
   return(
     <div className={css.container}>
       <span>ALL RIGHTS RESERVED</span>
@@ -21,3 +21,5 @@ export default (Footer) => {
     </div>
   )
 }
+
+export default Footer;

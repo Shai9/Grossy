@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Logo from '../assets/Logo.png';
 import { HiOutlineShoppingBag } from "react-icons/hi";
 
-export default (Header) => {
+const Header = (Header) => {
   return(
     <div className={css.header}>
 
@@ -35,3 +35,5 @@ export default (Header) => {
     </div>
   )
 }
+
+export default Header;
