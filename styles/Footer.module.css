@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 6rem;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(1deg, rgba(255,237,237,0.85) 0%, rgba(255,255,255,0) 14rem);
+}
+
+.container>span{
+  color: green;
+  font-weight: bold;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  flex: 1rem;
+}
+
+.logo>span {
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: black;
+}
+
+.socials{
+  display: flex;
+  gap: 1rem;
+}
+
+.socials>*{
+  fill: green;
+}
