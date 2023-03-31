@@ -1,7 +1,8 @@
 import Head from "next/head";
 import Layout from "../components/Layout";
+import Hero from "../components/Hero";
 
-export default function Home() {
+const  Home = () => {
   return (
     <Layout>
       <div>
@@ -12,9 +13,10 @@ export default function Home() {
         </Head>
         {/* body */}
         <main>
-          <h1>Hello from Grossy</h1>        
+          <Hero />        
         </main>
       </div>
     </Layout>
   );
 }
+export default Home;
