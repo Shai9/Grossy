@@ -1,0 +1,24 @@
+.container{
+  display: flex;
+  position: relative;
+}
+
+.left{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.vegieDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  margin-top: 3rem;
+  border-radius: 2rem;
+  padding: 1rem;
+  background-color: #FBF5E9;
+  color: black;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
