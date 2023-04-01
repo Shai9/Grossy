@@ -14,3 +14,35 @@
 .heading>:nth-child(2) ,.heading>:nth-child(3) {
   font-size: 2rem;
 }
+
+.services{
+  display: flex;
+  margin-top: 3rem;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.imagewrapper{
+  width: 10rem;
+  height: 10rem;
+}
+
+.feature>:nth-child(2){
+  font-weight: bold;
+}
+
+.feature>:nth-child(3) {
+  word-wrap: break-word;
+  color: gray;
+  width: 20rem;
+  text-align: center;
+}
