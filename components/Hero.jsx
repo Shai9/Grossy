@@ -3,7 +3,6 @@ import Banana from '../assets/crop.png';
 import HeroImage from '../assets/Her.png'
 import css from '../styles/Hero.module.css'
 import { IoIosCall } from "react-icons/io";
-import Oranges from '../assets/oranges.jpg'
 
 
 const Hero = () => {
@@ -42,15 +41,6 @@ const Hero = () => {
           <span>Call us</span>
           <div>
           <IoIosCall />
-          </div>
-        </div>
-        <div className={css.Veges}>
-          <div>
-            <Image src={Oranges} alt="" objectFit="cover" layout="fill"/>
-          </div>
-          <div className="css.details">
-            <span>Navel oranges</span>
-            <span>Ksh 50</span>
           </div>
         </div>
       </div>
