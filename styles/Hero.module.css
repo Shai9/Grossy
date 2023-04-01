@@ -21,4 +21,94 @@
   color: black;
   font-weight: bold;
   font-size: 0.8rem;
+  gap: 1.2rem;
+}
+
+.HeroText {
+  display: flex;
+  flex-direction: column;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.minitext{
+  width: 70%;
+  color: gray;
+  font-weight: 600;
+}
+
+.btn{
+  font-size: 1rem;
+  padding: 1rem 2.9rem;
+}
+
+
+.right{
+  position: relative;
+}
+
+.Imagecontainer{
+  width: 40rem;
+  position: absolute;
+  height: 26rem;
+  padding-top: 1.7rem;
+  right: -4;
+}
+
+.contactUs{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  align-items: center;
+  width: max-content;
+  padding: 1rem;
+  border-radius: 2rem;
+  top: 6rem;
+  gap: 1rem;
+  background-color: white;
+  box-shadow: var(--shadow);
+  color: green;
+
+}
+
+.contactUs>div{
+  background-color: green;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 2.5rem;
+  display: flex;
+  height: 2.5rem;
+  color: whitesmoke;
+}
+
+.contactUs:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.Veges {
+  display: flex;
+  gap: 1rem;
+  box-shadow: var(--shadow);
+  padding: 0.5rem;
+  border-radius: 8rem;
+  position: absolute;
+  bottom: 4rem;
+  right: -1rem;
+  width: max-content;
+}
+
+.Veges>:nth-child(1) {
+  width: 6rem;
+  height: 4rem;
+  overflow: hidden;
+  border: .5rem;
+}
+
+.Veges>:nth-child(2) {
+  justify-content: space-between;
+  flex-direction: column;
+  display: flex;
+  font-weight: bold;
 }
