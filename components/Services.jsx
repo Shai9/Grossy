@@ -35,7 +35,7 @@ const Services = () => {
           <Image src={Se3} alt="" objectFit='cover' layout='intrinsic'/>
         </div>
         <span>Farm-to-table Goodies</span>
-        <span>We don't compromise on quality, and neither should you</span>
+        <span>Freshness you can taste, quality you can trust</span>
       </div>
       
     </div>
