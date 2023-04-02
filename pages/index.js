@@ -1,8 +1,9 @@
 import Head from "next/head";
 import Layout from "../components/Layout";
 import Hero from "../components/Hero";
-import Services from "../components/Services"
-import css from "../styles/Home.module.css"
+import Services from "../components/Services";
+import css from "../styles/Home.module.css";
+import client from "../lib/client";
 
 const  Home = () => {
   return (
@@ -22,4 +23,16 @@ const  Home = () => {
     </Layout>
   );
 }
+
+export const getServerSideProps = async() => {
+  const query = '*[_type == "vegie"]';
+  const vegies = await client.fetch(query);
+  return {
+    props: {
+      vegies
+    }
+  }
+
+}
+
 export default Home;
