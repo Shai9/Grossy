@@ -1,5 +1,5 @@
 {
-  "name": "grocergo",
+  "name": "grocer-go",
   "private": true,
   "version": "1.0.0",
   "main": "package.json",
@@ -18,6 +18,7 @@
     "@sanity/vision": "^3.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^3.11.0",
     "react-is": "^18.2.0",
     "sanity": "^3.0.0",
     "styled-components": "^5.2.0"

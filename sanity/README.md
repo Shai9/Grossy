@@ -1,3 +1,3 @@
-# Sanity Clean Content Studio
+# Sanity Movies Content Studio
 
-- This is the sanity backend.
+- Backend api data for our  vegetables/ greens powered by sanity studio

@@ -5,12 +5,15 @@ import {schemaTypes} from './schemas'
 
 export default defineConfig({
   name: 'default',
-  title: 'GrocerGo',
+  title: 'grocer-go',
 
-  projectId: 'dpaoey7c',
+  projectId: 't6oolyxc',
   dataset: 'production',
 
-  plugins: [deskTool(), visionTool()],
+  plugins: [
+    deskTool(),
+    visionTool(),
+  ],
 
   schema: {
     types: schemaTypes,
