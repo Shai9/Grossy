@@ -62,8 +62,8 @@
   align-items: center;
   width: max-content;
   padding: 1rem;
-  border-radius: 2rem;
-  top: 6rem;
+  border-radius: 3rem;
+  top: 4rem;
   gap: 1rem;
   background-color: white;
   box-shadow: var(--shadow);
@@ -76,9 +76,9 @@
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  width: 2.5rem;
+  width: 2.0rem;
   display: flex;
-  height: 2.5rem;
+  height: 2.0rem;
   color: whitesmoke;
 }
 
