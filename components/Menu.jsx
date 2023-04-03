@@ -6,6 +6,7 @@ import Image from "next/legacy/image";
 const Menu = ({vegies}) => {
   
   return (
+  
       <div className={css.container}>
         <div className={css.heading}>
           <span>OUR VEGGIES</span>
@@ -13,6 +14,7 @@ const Menu = ({vegies}) => {
           <span>Meals With Goodness Of Nature</span>
         </div>
 
+      <div className={css.menu}>
         {vegies.map((vegie,id)=> {
 
           const src = urlFor(vegie.image).url()
@@ -23,10 +25,13 @@ const Menu = ({vegies}) => {
                 
                 <Image loader = {() => src } src={src} alt="" objectFit="cover" layout="fill" />
               </div>
+              <span>{vegie.name}</span>
+              <span><span style={{color: 'green'}}>Ksh</span> {vegie.price[1]}</span>
             </div>
-          )
+          );
         })}
       </div>
+    </div>
   )
 }
 
