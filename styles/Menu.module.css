@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 6rem;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  justify-content: flex-start;
+}
+
+.heading>:nth-child(1){
+  color: green;
+  font-size: 1rem;
+  margin-bottom: 2rem;  
+}
+
+.heading>:nth-child(2), .heading>:nth-child(3) {
+font-size: 2rem;
+
+}
+
+.Image {
+  height: 16rem;
+  width: 22rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 2rem;
+}

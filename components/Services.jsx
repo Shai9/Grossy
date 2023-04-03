@@ -11,8 +11,8 @@ const Services = () => {
     <>
     <div className={css.heading}>
       <span>WHAT WE OFFER</span>
-      <span>Your favorite veggie</span>
-      <span>Delivery partner</span>
+      <span>Your Favorite Veggie</span>
+      <span>Delivery Partner</span>
     </div>
     {/* services */}
     <div className={css.services}>
