@@ -20,7 +20,7 @@ const Menu = ({vegies}) => {
 
           const src = urlFor(vegie.image).url()
           return(
-            <div className={css.vegie}>
+            <div className={css.vegie} key={id}>
               
               <Link href={`./pizza/${vegie.slug.current}`}>
               <div className={css.Image}>
