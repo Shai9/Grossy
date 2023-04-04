@@ -22,7 +22,7 @@ const Menu = ({vegies}) => {
           return(
             <div className={css.vegie} key={id}>
               
-              <Link href={`./pizza/${vegie.slug.current}`}>
+              <Link href={`./vegie/${vegie.slug.current}`}>
               <div className={css.Image}>
                 
                 <Image loader = {() => src } src={src} alt="" objectFit="cover" layout="fill" />
